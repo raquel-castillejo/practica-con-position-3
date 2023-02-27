@@ -1,0 +1,120 @@
+/* GENERAL */
+/* ******* */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(0, 0%, 15%);
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+h2 {
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+p {
+    font-size: 1.1rem;
+}
+
+/* TYPOGRAPHY */
+/* ********** */
+
+.title {
+    color: hsl(0, 0%, 95%);
+
+    text-transform: uppercase;
+    font-size: 2.5rem;
+}
+
+/* CONTAINERS */
+/* ********** */
+
+.main {
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: 3rem; /* sólo para que el ejercicio no esté pegado al inicio de la página :) */
+}
+
+.card {
+    display: inline-block;
+    height: 580px;
+    width: 30%;
+
+    padding: 3rem;
+    line-height: 1.6;
+
+    /* elimina el espacio entre elementos inline-block -> https://css-tricks.com/fighting-the-space-between-inline-block-elements/ */
+    margin-left:-4px; margin-right:-4px;
+}
+
+.text {
+    margin-bottom: 7rem;
+}
+
+/* icons */
+/* ***** */
+
+.icon-car-bg {
+    position: relative;
+    width: 50px;
+    height: 50px;
+
+    border-radius: 50%;
+    background-color: rgba(0 0 0 / 0.2);
+}
+
+.icon-car {
+    width: 50px;
+    height: auto;
+
+    position: relative;
+    top: 15px;
+    left: 22px;
+}
+
+/* card colors */
+/* *********** */
+
+.card-sedans {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 15px 0 0 15px;
+}
+
+.card-suvs {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.card-luxury {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 15px 15px 0;
+}
+
+
+
+/* buttons */
+/* ******* */
+
+.button {
+    background-color: hsl(0, 0%, 95%);
+    padding: 1em 2em;
+    border-radius: 2em;
+
+    text-decoration: none;
+}
+
+.button-sedans {
+    color: hsl(31 77% 52% / .75);
+}
+
+.button-suv {
+    color: hsl(184 100% 22% / .75);
+}
+
+.button-luxury {
+    color: hsl(179 100% 13% / .75);
+}
