@@ -1,6 +1,6 @@
 # Práctica con position
 
-![Imagen del proyecto](https://github.com/raquel-castillejo/003-3-columns-card-component/tree/main/design)
+![Imagen del proyecto](https://github.com/raquel-castillejo/003-3-columns-card-component/blob/main/design/final.jpg)
 
 ## Ejemplo en vivo
 
@@ -24,7 +24,7 @@ A utilizar los posicionamientos de CSS.
 ## Vista previa del proyecto
 
 Si quieres echar un vistazo al proyecto, te recomiendo:
-![Captura del proyecto](https://github.com/raquel-castillejo/003-3-columns-card-component/tree/main/design)
+![Captura del proyecto](https://github.com/raquel-castillejo/003-3-columns-card-component/blob/main/design/final.jpg)
 
 ## Autor ✒️
 
